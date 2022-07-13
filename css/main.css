@@ -1,0 +1,103 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap');
+body{
+	font-family: 'Kanit', sans-serif;
+}
+.header{
+    background: rgba(0,0,0,0.49);
+    padding: 24px 0;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+
+.Logo a{
+    text-decoration: none;
+    color: #D30508;
+    font-size: 24px;
+    font-weight:bold;
+    letter-spacing: 3px;
+}
+.nav ul{
+	list-style: none;
+}
+.nav li a{
+	text-decoration: none;
+	color: #D30508;
+    margin: 16px;
+    font-size: 18px;
+    font-weight: bold
+}
+.banner{
+    background: #1f1f1f;
+    height: 100vh;
+    overflow: hidden;
+}
+.banner video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.nav li a:hover{
+    opacity: 0.8
+}
+.caption span a{
+    background-color: #131313;
+    color: #D30508;
+    padding: 14px;
+    font-size: 25px;
+    letter-spacing: 5px;
+    opacity: 0.8;
+    font-weight: 700;
+    text-decoration: none;
+}
+.caption{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%; 
+}
+.caption span a:hover{
+    opacity: 0.6
+}
+p{
+    color:white;
+    letter-spacing: 3px
+}
+h3{
+    font-size: 24px;
+    letter-spacing: 5px
+}
+.bg-1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text{
+    background-color: transparent;
+    font-size: 25px;
+    color: white
+}
+.box{
+    height: 800px;
+    overflow: hidden;
+    position: relative
+}
+
+.box img{
+    width: 100%;
+    height: 800px;
+}
+.container{
+    width: 100%;
+    overflow: hidden;
+}
+.boxso2{
+    height: 600px;
+    width: 300px;
+    background-color: grey;
+    opacity: 0.4;
+    position: absolute;
+    z-index: 1000
+}
